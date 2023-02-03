@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+background-image:url("projectpics/wedback2.jpg");
+background-size:100%;
+}
+ *{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFD700;
+  padding: 30px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color:hotpink;
+  padding: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="text-align:center;font-size:50px;color:white";>WEDDING</h1>
+<hr>
+
+
+<p style=" color:white;font-size:30px">Your wedding is the most special day in your life. You remember the day, the dress, the details and the love for the rest of your life.We are here to preserve your best memories with our amazing photography.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="projectpics/brand.jpg" alt="Brandon" style="width:125px;height:125px;">
+      <h3 style=" color:white;">BRANDON FLYNN</h3>
+      <p style=" color:white;" >Experience:10 years
+	     <br/>Qualification:BFA<br/>Cost per hour:10,000inr/-<br/>Specialities:fine art       photography</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/devin.jpg" alt="devin" style="width:125px;height:125px;">
+      <h3 style=" color:white;">DEVIN DRUID</h3>
+      <p style=" color:white;">Experience:  17 years     
+	  <br/>Qualification:masters in fine art </br>Cost per hour:20,200inr</br>Specialities:commercial photagrapher</br>hasselbald camera H60D-50C</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/miles.jpg" alt="devin" style="width:125px;height:125px;">
+      <h3 style=" color:white;">MILES HEIZER</h3>
+      <p style=" color:white;">Experience: 11 years   
+	  <br/>Qualification:masters in photography</br>Cost per hour:18,980inr   </br>Specialities:editorial photographer</br> canon EOS M50 755D</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/anne.jpg" alt="devin" style="width:125px;height:125px;">
+      <h3 style=" color:white;">ANNE WINTERS</h3>
+      <p style=" color:white;">Experience:   8 and 1/2years
+	  <br/>Qualification:BFA</br>Cost per hour:12,450inr   </br>Specialities:wedding photography</br>nikon coolpix</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

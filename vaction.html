@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-image:url("projectpics/vacbac2.jpeg");
+background-size:100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: dodgerblue;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="text-align:center;font-size:50px;color:whitesmoke";>VACATION</h1>
+<hr>
+
+
+<p style="font-size:30px;color:whitesmoke;">Associate with us in your holiday vacation to capture your most joyuous moments of journeying, the freshness it brings to the heart and the seeing and hearing of marvelous things and the delight of beholding the new cities.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+       <img src="projectpics/kat.jpg" alt="Lights" style="width:125px;height:125px;">
+      <h3>HANNAH</h3>
+      <p>Experience:18 years    
+	  <br/>Qualification:Masters</br>Cost per hour:18,400inr   </br>Specialities:scenarial photographer</br>HasselbaldHD962 camera with doule zoom,scenary capturing</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/alisha.jpg" alt="Lights" style="width:125px;height:125px;">
+      <h3>ALISHA BOE</h3>
+      <p>Experience: 13 years   
+	  <br/>Qualification:Masters</br>Cost per hour:15,000inr   </br>Specialities:nature photographer</br>Scerary capture,high skills in editing and framing</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/christi.jpg" alt="Nature" style="width:125px;height:125px;">
+      <h3>CHRISTIAN NAVARO</h3>
+      <p>Experience:   11 years 
+	  <br/>Qualification:Masters    </br>Cost per hour:13,300inr   </br>Specialities:tightframe photographer</br>Lighting adjustments and skillful crew members</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/amy.jpg" alt="Mountains" style="width:125px;height:125px;">
+      <h3>AMY HARGREAVES</h3>
+     <p>Experience:   9 years 
+	  <br/>Qualification: Masters   </br>Cost per hour:11,232inr   </br>Specialities:editorial photographer</br>Focus photogaphy </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

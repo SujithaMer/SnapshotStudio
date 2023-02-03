@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-image:url("projectpics/matbac6.jpeg");
+background-size:100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+p.round3 {
+  border: 12px bisque;
+  border-radius: 20px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: moccasin;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="text-align:center;font-size:50px;color:bisque";>MATERNITY</h1>
+<hr>
+
+<p style="font-size:30px;color:whitesmoke;">To be pregnant is most exciting and memorable period of any women's life.At this stage ,she touch the heights of emotion.We make this overwhelming experience last forever with incredible photographs</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+  <img src="projectpics/sam.jpg" alt="Maternity" style="width:125px;height:125px;">
+      <h3>SAMANTHA LOGAN</h3>
+      <p>Experience:   16 years 
+	  <br/>Qualification:masters in photography </br>Cost per hour:17,900inr   </br>Specialities:fashion photographer </br>Modern techniques and equipment like Olympus tough TQ-870</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/kate.jpg" alt="Maternity" style="width:125px;height:125px;">
+      <h3>KATE WALSH</h3>
+      <p>Experience:    20 years
+	  <br/>Qualification: masters in cambridge,doctorate in photography   </br>Cost per hour:32,000inr   </br>Specialities:commercial photographer </br>Expert in color theory, Editing and commercial photographer,Protrait photography</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="projectpics/derek.jpg" alt="Maternity" style="width:125px;height:125px;">
+      <h3>DEREK LUKE</h3>
+      <p>Experience:    13 years
+	  <br/>Qualification: Bachelor in photography   </br>Cost per hour:10,000inr   </br>Specialities:fine arts photographer </br>Graphical designer,Visual journalism</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/cheek.jpg" alt="Maternity" style="width:125px;height:125px;">
+      <h3>NINA CHEEK</h3>
+      <p>Experience:    11 years
+	  <br/>Qualification:Bachelor in photography    </br>Cost per hour: 8,500inr  </br>Specialities:fine arts photographer </br>photography techniques,artwork critique,</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

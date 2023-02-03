@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+background-image:url("projectpics/spobac5.jpeg");
+background-size:100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: khaki;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="text-align:center;font-size:50px;color:white";>SPORTS</h1>
+<hr>
+
+
+<p style="font-size:30px;color:white;">The glory of sport comes from dedication,determination,desire and discipline.Acheiving success has less to do with wins and losses.We capture your great graceful momemts for your benefits and memories.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="projectpics/dylan3.jpg" alt="ross" style="width:125px;height:125px;">
+      <h3>DYLAN MINNETTE</h3>
+      <p>Experience: 15 years   
+	  <br/>Qualification:MAsters   </br>Cost per hour: 12,000inr  </br>Specialities:Hyper realistic photography</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/ross.jpg" alt="ross" style="width:125px;height:125px;">
+      <h3>ROSS BUTLER</h3>
+      <p>Experience:  10 years  
+	  <br/>Qualification:BFA    </br>Cost per hour:11,000inr   </br>Specialities:Potrait photography</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="projectpics/justin.jpg" alt="Nature" style="width:125px;height:125px;">
+      <h3>JUSTIN PRENTIC</h3>
+     <p>Experience:   8 years 
+	  <br/>Qualification:Bachelors    </br>Cost per hour:8,000inr   </br>Specialities:Commercial photography</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <img src="projectpics/tommy.jpg" alt="ross" style="width:125px;height:125px;">
+      <h3>TOMMY DORFMAN</h3>
+      <p>Experience:    5 years
+	  <br/>Qualification:Bachelors    </br>Cost per hour: 4,500inr  </br>Specialities:Potrait  photography</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

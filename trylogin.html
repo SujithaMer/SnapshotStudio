@@ -1,0 +1,22 @@
+<html>
+<script>
+function favsports()
+{
+ var mylist=document.getElementById("myList");
+ document.getElementById("favorite").value=mylist.options[mylist.selectedIndex].text;
+}
+</script>
+<body>
+<form>
+select your favorite sports:
+<select id="myList" onChange="favsports()">
+     <option>soccer</option>
+	 <option>cricket</option>
+	 <option>temmis</option>
+	 <option>bsket ball</option>
+	 <option>badminton</option>
+</select>
+<p>Your favorite sport is :<input type="text" id="favorite" size="20"></p>
+</form>
+</body>
+</html>
